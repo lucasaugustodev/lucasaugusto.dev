@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://lucasaugusto.dev/profile.schema.json",
+  "title": "Lucas Augusto public professional profile",
+  "type": "object",
+  "required": ["person", "focus", "experience", "selectedProjects", "skills"],
+  "properties": {
+    "schema": { "type": "string", "format": "uri" },
+    "updatedAt": { "type": "string", "format": "date" },
+    "person": { "type": "object" },
+    "focus": { "type": "array", "items": { "type": "string" } },
+    "experience": { "type": "array", "items": { "type": "object" } },
+    "selectedProjects": { "type": "array", "items": { "type": "object" } },
+    "skills": { "type": "object" },
+    "availability": { "type": "object" }
+  }
+}

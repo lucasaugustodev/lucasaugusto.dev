@@ -1,0 +1,90 @@
+{
+  "schema": "https://lucasaugusto.dev/profile.schema.json",
+  "updatedAt": "2026-09-01",
+  "person": {
+    "name": "Lucas Augusto",
+    "headline": "Engenheiro de Cloud, IA e Game Engineering",
+    "location": "Goiânia, Goiás, Brasil",
+    "summary": "Engenheiro de software focado em cloud e infraestrutura, sistemas de agentes de IA e experiências interativas para web. Atua da arquitetura e automação ao frontend, gameplay e operação em produção.",
+    "email": "mail@lucasaugusto.dev",
+    "website": "https://lucasaugusto.dev",
+    "github": "https://github.com/lucasaugustodev",
+    "linkedin": "https://www.linkedin.com/in/lucas-augusto-a7381b11b/"
+  },
+  "focus": [
+    "Cloud & Infrastructure",
+    "DevOps & Platform Engineering",
+    "Agentic AI Systems",
+    "Game Engineering",
+    "Full-stack Product Development"
+  ],
+  "experience": [
+    {
+      "company": "Hub Formaturas e Experiências",
+      "role": "Engenheiro de Cloud e Infraestrutura",
+      "current": true,
+      "summary": "Arquitetura, automação, observabilidade e governança de ambientes, integrações e produtos internos."
+    },
+    {
+      "company": "FlowCode",
+      "role": "DevOps Tech Lead",
+      "current": false,
+      "summary": "Liderança técnica, automações, portais, dashboards, integrações de IA e pipelines de desenvolvimento."
+    },
+    {
+      "company": "Kafe Apps",
+      "role": "Tech Lead",
+      "current": false,
+      "summary": "Direção técnica de produtos, IA aplicada ao core e gestão de equipes web e low-code."
+    }
+  ],
+  "selectedProjects": [
+    {
+      "name": "NewAge Games",
+      "type": "Game provider platform",
+      "url": "https://newage.games/demos/",
+      "summary": "Provider de jogos com catálogo, sessões, rodadas, RTP, auditoria e integração server-to-server.",
+      "technologies": ["TypeScript", "Node.js", "RGS", "Webhooks"]
+    },
+    {
+      "name": "Missão Sorriso",
+      "type": "Interactive video games",
+      "url": "https://github.com/lucasaugustodev/dentinhos-game",
+      "summary": "Vídeo infantil que se transforma em três minigames sincronizados com a narrativa.",
+      "technologies": ["Canvas", "Web Audio", "Vite", "Media Chrome"]
+    },
+    {
+      "name": "Arena dos Lutadores",
+      "type": "3D game R&D",
+      "url": "https://github.com/lucasaugustodev/arena-lutadores-web",
+      "summary": "Pipeline experimental de personagens, modelagem 3D, rigging, animação e combate no navegador.",
+      "technologies": ["Three.js", "Phaser", "GLB", "AI asset pipeline"]
+    },
+    {
+      "name": "Agentsfy Guard",
+      "type": "AI agent security",
+      "url": "https://github.com/lucasaugustodev/agentsfy-guard",
+      "summary": "Runtime local-first de proteção para agentes, ferramentas, memória e prompt injection.",
+      "technologies": ["TypeScript", "AI Agents", "Security"]
+    },
+    {
+      "name": "agent-argv",
+      "type": "AI developer tooling",
+      "url": "https://github.com/lucasaugustodev/agent-argv",
+      "summary": "Execução estruturada de comandos para agentes sem depender de shell quoting.",
+      "technologies": ["TypeScript", "Node.js", "Agent tooling"]
+    }
+  ],
+  "skills": {
+    "languages": ["TypeScript", "JavaScript", "Go", "Python", "Java", ".NET"],
+    "frontend": ["Svelte", "React", "Canvas", "Three.js", "Phaser"],
+    "backend": ["Node.js", "Express", "REST APIs", "Webhooks", "Colyseus"],
+    "data": ["PostgreSQL", "SQL", "Redis", "Supabase"],
+    "platform": ["AWS", "Cloudflare", "Docker", "Linux", "GitHub Actions", "CI/CD"],
+    "ai": ["MCP", "Tool calling", "Agent runtimes", "Memory", "Guardrails", "Model gateways"]
+  },
+  "availability": {
+    "status": "open_to_conversations",
+    "contact": "mailto:mail@lucasaugusto.dev"
+  }
+}
